@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-function HeadContainer(children) {
+function HeadContainer({children}) {
     return (
         <Head>
             {children}
