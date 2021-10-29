@@ -5,17 +5,15 @@ import HeadContainer from '../components/HeadContainer'
 
 export default function Home() {
   return (
-    <div className="flex justify-center align-middle flex-col bg-colorMainBlue">
+    <div>
       <HeadContainer>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </HeadContainer>
 
+      <Header />
+
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
       </main>
 
       <Footer />
