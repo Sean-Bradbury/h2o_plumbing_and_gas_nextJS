@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Create custom classes using tailwind rules */
+@layer components {
+    .btn-red {
+        @apply bg-colorMainRed;
+    }
+}
