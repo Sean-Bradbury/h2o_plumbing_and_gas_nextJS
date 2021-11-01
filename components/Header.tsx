@@ -9,7 +9,14 @@ export default function Header() {
         height={93}
         width={375}
       />
-      <p>Something else</p>
+      <ul className="flex space-x-3 uppercase font-semibold font-roboto tracking-wide text-colorDarkGrey">
+        <li className="active:text-colorMainBlue">Fake Nav</li>
+        <li>Fake Nav</li>
+        <li>Fake Nav</li>
+        <li>Fake Nav</li>
+        <li>Fake Nav</li>
+        <li>Fake Nav</li>
+      </ul>
     </div>
   )
 }
