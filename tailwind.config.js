@@ -14,6 +14,9 @@ module.exports = {
       backgroundImage: {
         diamond: "url('/img/bg/whitediamond.png')",
         spikes: "url('/img/bg/spikes.png')",
+      },
+      fontFamily: {
+        'roboto': ['"Roboto"', 'sans-serif']
       }
     },
   },
