@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone, faMobile } from "@fortawesome/free-solid-svg-icons";
 
 function StickyContact() {
     return (
@@ -8,12 +10,12 @@ function StickyContact() {
             </div>
             <div className="text-white p-2 font-bold hidden md:block">
                 <a href="tel:01623 422 151">
-                    01623 422 151
+                    <FontAwesomeIcon icon={faPhone} className="mr-1" /> 01623 422 151
                 </a>
             </div>
             <div className="text-white p-2 font-bold text-xl md:text-base">
                 <a href="tel:01623 422 151">
-                07904 3888 50
+                    <FontAwesomeIcon icon={faMobile} className="mr-1" /> 07904 3888 50
                 </a>
             </div>          
         </div>

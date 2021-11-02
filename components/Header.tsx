@@ -6,11 +6,13 @@ export default function Header() {
   return (
     <>
     <div className="flex justify-between items-center py-2 px-4">
-      <Image 
-        src={Logo}
-        height={93}
-        width={375}
-      />
+      <div className="pt-10 md:pt-0">
+        <Image 
+          src={Logo}
+          height={93}
+          width={375}
+        />
+      </div>
       <ul className="flex space-x-3 uppercase font-semibold font-roboto tracking-wide text-colorDarkGrey pt-20">
         <li className="active:text-colorMainBlue">Fake Nav</li>
         <li>Fake Nav</li>
